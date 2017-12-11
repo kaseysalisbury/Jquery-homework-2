@@ -22,7 +22,15 @@
   <script>
   $(document).ready(function(){
      $(".alert").hide();
+});
 
+$(".btn-wrong").click(function(){
+  $(".wrong-msg").slideDown();
+  $(".correct-msg").hide() });
+
+$(".btn-right").click(function(){
+$(".correct-msg").slideDown();
+$(".wrong-msg").hide();
 });
 
   </script>
